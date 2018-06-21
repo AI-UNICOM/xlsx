@@ -1,0 +1,25 @@
+{
+  "name": "mynuxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "execl": "node ./execl/index.js",
+    "server": "node ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.4.1",
+    "node-xlsx": "^0.12.1",
+    "nuxt": "^1.4.1",
+    "promise-jsonfile": "^1.0.3",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "vue-socket.io-extended": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0"
+  }
+}
